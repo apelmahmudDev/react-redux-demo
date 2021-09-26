@@ -1,8 +1,14 @@
+import { Provider } from "react-redux";
+import CakeContainer from "./components/CakeContainer";
+import store from "./redux/store";
+
 function App() {
 	return (
-		<div>
-			<h1>React Redux demo</h1>
-		</div>
+		<Provider store={store}>
+			<div>
+				<CakeContainer />
+			</div>
+		</Provider>
 	);
 }
 
