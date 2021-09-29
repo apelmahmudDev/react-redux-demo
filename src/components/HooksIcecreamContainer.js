@@ -11,7 +11,7 @@ const HooksIcecreamContainer = () => {
 		<div>
 			<h2>Number of ice-cream- {numberOfIcecream}</h2>
 			<button onClick={() => dispatch(buyIcecream())}>Buy ice-cream</button>
-			<button onClick={() => dispatch(addIcecream())}> ice-cream</button>
+			<button onClick={() => dispatch(addIcecream())}>Add ice-cream</button>
 		</div>
 	);
 };
