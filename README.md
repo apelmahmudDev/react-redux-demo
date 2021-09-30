@@ -33,6 +33,8 @@
 <br />
 ✅ redux-logger
 <br />
+✅ redux-devtools-extension
+<br />
 ✅ redux-thunk
 <br />
 ✅ async-action
